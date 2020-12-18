@@ -26,7 +26,7 @@
     function (e) {
       if (
         location.pathname.replace(/^\//, "") ==
-          this.pathname.replace(/^\//, "") &&
+        this.pathname.replace(/^\//, "") &&
         location.hostname == this.hostname
       ) {
         var target = $(this.hash);
@@ -124,7 +124,7 @@
   }
 
   // Navigation active state on scroll
-  var nav_sections = $("section");
+  /*var nav_sections = $("section");
   var main_nav = $(".nav-menu, #mobile-nav");
 
   $(window).on("scroll", function () {
@@ -160,7 +160,7 @@
 
   if ($(window).scrollTop() > 100) {
     $("#header").addClass("header-scrolled");
-  }
+  }*/
 
   // Intro carousel
   var heroCarousel = $("#heroCarousel");
@@ -171,15 +171,15 @@
     .each(function (index) {
       index === 0
         ? heroCarouselIndicators.append(
-            "<li data-target='#heroCarousel' data-slide-to='" +
-              index +
-              "' class='active'></li>"
-          )
+          "<li data-target='#heroCarousel' data-slide-to='" +
+          index +
+          "' class='active'></li>"
+        )
         : heroCarouselIndicators.append(
-            "<li data-target='#heroCarousel' data-slide-to='" +
-              index +
-              "'></li>"
-          );
+          "<li data-target='#heroCarousel' data-slide-to='" +
+          index +
+          "'></li>"
+        );
     });
 
   heroCarousel.on("slid.bs.carousel", function (e) {
