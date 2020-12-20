@@ -26,6 +26,8 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -130,12 +132,13 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
+                    <li><a href="/blog.html">Blog</a></li>
                     <li class="active"><a href="#">Contact</a></li>
 
                 </ul>
             </nav><!-- .nav-menu -->
 
-            <a href="#about" class="get-started-btn">Let's Talk</a>
+            <a href="/contact.html" class="get-started-btn">Let's Talk</a>
 
         </div>
     </header><!-- End Header -->
@@ -146,62 +149,52 @@
         <br><br><br><br><br>
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact section-bg">
+        <section id="contact" class="contact">
+            <div class="container">
 
-
-
-            <div class="container" data-aos="fade-up">
-
-
-
-                <div class="section-title">
-                    <h2>Contact</h2>
-                    <p>Contact Us</p>
+                <div>
+                    <iframe style="border:0; width: 100%; height: 270px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.416377233161!2d55.383179217443825!3d25.323805400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5beea01b3f41%3A0x3aa2805f0bacf6cb!2sAl%20Yousifi%20Building!5e0!3m2!1sen!2sin!4v1608444237684!5m2!1sen!2sin"
+                        frameborder="0" allowfullscreen></iframe>
                 </div>
 
-                <div class="row">
+                <div class="row mt-5">
 
-                    <div class="col-lg-6">
-
-                        <div class="row">
-
-                            <div class="col-md-12">
-
-                                <div class="info-box">
-                                    <i class="bx bx-map"></i>
-                                    <h3>Our Address</h3>
-                                    <p>P.O Box 5020, Office 14, <br>Old Yousifi Building, Al Majaz 2.<br>
-                                        Sharjah, United Arab Emirates</p>
-                                </div>
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="icofont-google-map"></i>
+                                <h4>Location:</h4>
+                                <p>A108 Adam Street, New York, NY 535022</p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="info-box mt-4">
-                                    <i class="bx bx-envelope"></i>
-                                    <h3>Email Us</h3>
-                                    <p>info@asasgroup.net</p>
-                                </div>
+
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="info-box mt-4">
-                                    <i class="bx bx-phone-call"></i>
-                                    <h3>Call Us</h3>
-                                    <p>Phone: +971 52 299 3800<br>Tel: +971 6550 0099</p>
-                                </div>
+
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 5589 55488 55s</p>
                             </div>
+
                         </div>
 
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <div class="form-row">
-                                <div class="col form-group">
+                                <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"
                                         placeholder="Your Name" data-rule="minlen:4"
                                         data-msg="Please enter at least 4 chars" />
                                     <div class="validate"></div>
                                 </div>
-                                <div class="col form-group">
+                                <div class="col-md-6 form-group">
                                     <input type="email" class="form-control" name="email" id="email"
                                         placeholder="Your Email" data-rule="email"
                                         data-msg="Please enter a valid email" />
@@ -226,13 +219,14 @@
                             </div>
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
+
                     </div>
 
                 </div>
 
             </div>
-
         </section><!-- End Contact Section -->
+
         <!-- ======= Cta Section ======= -->
         <section id="cta" class="cta">
             <div class="container" data-aos="zoom-in">
