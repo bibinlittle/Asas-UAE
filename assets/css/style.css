@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #110f0f;
 }
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .call-btn {
@@ -768,13 +768,19 @@ section {
   padding: 0;
 }
 
+.about .content{
+  color:#110f0f;
+}
+
 .about .content ul li {
   padding-left: 28px;
   position: relative;
+  color:#110f0f;
 }
 
 .about .content ul li + li {
   margin-top: 10px;
+  
 }
 
 .about .content ul i {
@@ -782,7 +788,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #ed502e;
+  color: #110f0f;;
   line-height: 1;
 }
 
@@ -1225,6 +1231,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color:#110f0f;
 }
 
 .testimonials .owl-nav,
@@ -2178,7 +2185,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #444444;
+  color: #110f0f;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -2335,7 +2342,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #444444;
+  color: #110f0f;
   transition: 0.3s;
 }
 
@@ -2773,4 +2780,15 @@ section {
 {
   width: 340px;
 }
+}
+
+/*--------------------------------------------------------------
+# Tabs
+--------------------------------------------------------------*/
+
+.newbox
+{
+  display: flex;
+  justify-content: baseline;
+  background-color: #05101e;
 }
